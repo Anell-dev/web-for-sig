@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Archivo CSS global o módulo CSS */
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.3); /* Fondo más translúcido */
+  border: 1px solid rgba(255, 255, 255, 0.5); /* Borde más visible */
+  border-radius: 0.5rem; /* Esquinas redondeadas */
+  backdrop-filter: blur(15px); /* Aumentar el desenfoque */
+  -webkit-backdrop-filter: blur(15px); /* Compatibilidad con WebKit */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más visible */
+}
